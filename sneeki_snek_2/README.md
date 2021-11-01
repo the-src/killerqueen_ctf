@@ -41,6 +41,7 @@ a.append(1739411)
 a.append(1728311)
 a.append(1539421)
 b = ''
+
 for i in a:
     c = str(i)[::-1]
     c = c[:-1]
@@ -49,6 +50,7 @@ for i in a:
     c = c - 55555
     c = c // 555
     b += chr(c)
+    
 print(b)
 ```
 

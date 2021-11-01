@@ -31,13 +31,13 @@ For example when we saw 4 and 5. line theirs python code is something like:
 f = ''
 a = 'rwhxi}eomr\\^`Y'
 ```
-You can think of we are loading the f character and storing it as empty string; loading a, storing it as "rwhxi}eomr\\^`Y".
+You can think of we are loading the f character and storing it as empty string; loading a, storing it as "rwhxi}eomr\\\^`Y".
 
 SO IN ORDER TO FIND THE ANSWER WE NEED TO EVALUATE ALL CODE TO PYTHON.
 
 ### But there is a simple module for this to get this easier. The "dis" module.
 
-Simply write your code into a function, import the dis module andddd..
+Simply write your code into a function, import the dis module andddd
 
 ```py
 import dis
@@ -45,6 +45,7 @@ import dis
 def myfunc():
   f = ''
   a = 'rwhxi}eomr\\^`Y'
+
 dis.dis(myfunc)
 ```
 Then check whether is output similar to our bytecode.
@@ -58,12 +59,14 @@ f = ''
 a = 'rwhxi}eomr\\^`Y'
 z = 'f]XdThbQd^TYL&\x13g'
 a = a+z
+
 for i,b in enumerate(a):
     c = ord(b)
     c = c - 7
     c = c + i
     c = chr(c)
     f += c
+
 print(f)
 ```
 
