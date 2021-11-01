@@ -56,4 +56,4 @@ print(b)
 
 Execute this code and:
 
-#### kqctf{snek_waas_not_so_sneeki}
+# kqctf{snek_waas_not_so_sneeki}
