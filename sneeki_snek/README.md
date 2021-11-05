@@ -17,7 +17,7 @@ We have a file and its content is like
 ```
 So first we need to understand what this is. With a bit of quick research we found our answer.
 
-### It's (Python bytecode)[https://opensource.com/article/18/4/introduction-python-bytecode] (assembly).
+### It's [Python bytecode](https://opensource.com/article/18/4/introduction-python-bytecode) (assembly).
 
 So let's explain some basic details.
 
